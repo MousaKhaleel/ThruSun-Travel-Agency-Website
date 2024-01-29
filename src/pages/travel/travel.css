@@ -1,0 +1,77 @@
+.search-container{
+    display: flex;
+    background: url(/src/assets/other/pexels-roman-odintsov-4871012.jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 14px;
+}
+.search{
+    margin-left: 18px;
+    margin-top: 42px;
+    height: fit-content;
+}
+.google-map{
+    display: flex;
+    width: 28%;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    border-radius: 10px;
+    border: solid 1px rgba(172, 170, 170,0.2);
+}
+/* ------------------------------------------------------------------------------ */
+.travel-container{
+    display: grid;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 440px;
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(172, 170, 170,0.4);
+    border: solid 1px rgba(172, 170, 170,0.2);
+}
+.travel-container img{
+    border-radius: 16px;
+    width: 240px;
+    padding: 8px;
+    border-bottom: solid 1px rgba(172, 170, 170,0.2);   
+}
+/* ////////////////////////////////////////////////////////////// */
+.travel-element{
+    display: grid;
+    grid-auto-flow: column;
+    width: 96%;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    margin-block: 6px;
+    margin-inline: 4px;
+    border-radius: 10px;
+    background: rgba(172, 170, 170,0.2);
+}
+.travel-element:hover{
+    background: rgba(172, 170, 170, 0.5);
+}
+.travel-element p{
+    margin-left: 14px;
+    margin-top: 14px;
+}
+.travel-element a{
+    color: black;
+}
+.details{
+    font-size: 12px;
+    padding-top: 80px;
+    padding-right: 40px;
+}
+.price{
+    padding-top: 128px;
+    padding-left: 440px;
+}
+/* ------------------------------------------------------------------------------ */
+main{
+    height: 260%
+}
+
+/* needs improving */

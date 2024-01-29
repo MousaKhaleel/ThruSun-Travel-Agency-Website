@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Hotels, Flights, Cruises and more, ThruSun Travel agency visit the world with us">
+    <meta name="keywords" content="Hotels, Flights, Cruises, visit, book, cheap, airline, explore, vacations">
+    <meta name="author" content="Mousa Khaleel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/src/assets/logo/6TM05t-LogoMakr.png">
+    <script src="https://kit.fontawesome.com/6f8d6d0077.js" crossorigin="anonymous"></script>
+    <title>ThruSun Travel</title>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <a href="/src/pages/homePage/index.html"><img class="logo" src="/src/assets/logo/4aMG2d-LogoMakr.png" alt="ThruSun"></a>
+            <a id="active" href="/src/pages/homePage/index.html"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="/src/pages/travel/travel.html"><i class="fa-solid fa-globe"></i> Travel</a>
+            <a href="/src/pages/travel/travel.html#flights"><i class="fa-solid fa-plane"></i> Flights</a>
+            <a href="/src/pages/travel/travel.html#hotels"><i class="fa-solid fa-hotel"></i> Hotels</a>
+            <a href="/src/pages/travel/travel.html#cruises"><i class="fa-solid fa-ship"></i> Cruises</a>
+            <a href="/src/pages/about/about.html"><i class="fa-solid fa-address-card"></i> About us</a>
+            <div class="nav-bar-right">
+                <a href="/src/pages/help/help.html"><i class="fa-solid fa-circle-info"></i> Help</a>
+                <a href="/src/pages/signIn/signIn.html"><i class="fa-solid fa-right-to-bracket"></i> Sign in</a>
+            </div>
+        </div>
+    </header>
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+    <main>
+        <div class="search">
+            <form action="" class="search">
+                <i style="margin-top: 20px;" class="fa-solid fa-location-dot search"></i><input type="search" placeholder="pick your destinations">
+        <input type="date">
+        <select name="passengers" id="passengers">
+            <option value="1">1 passenger</option>
+            <option value="2">2 passengers</option>
+            <option value="3">3 passengers</option>
+            <option value="4">4 passengers</option>
+            <option value="">4+ passengers</option>
+        </select>
+        <button type="button" onclick="goToTravel()"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+    </form>
+    </div>
+    <!-- ------------------------------------------------------------------------------ -->
+        <a href="/src/pages/travel/travel.html"><div class="hero-img">
+            <div class="hero-text">
+            <h1>Discover the wonders of the world</h1>
+            <br>
+            <p>Start your journey to the most exciting places on earth.</p>
+            <button type="button" onclick="goToTravel()">Travel with us</button>
+        </div>
+        </div></a>
+        <!-- ------------------------------------------------------------------------------ -->
+        <h2>Most visited destinations</h2>
+    <div class="container">        
+        <a href="/src/pages/travel/travel.html"><div class="element">
+            <img src="/src/assets/uk/pexels-pixabay-258117.jpg" alt="london">
+            <p>UK</p>
+        </div></a>
+        <a href="/src/pages/travel/travel.html"><div class="element">
+            <img src="/src/assets/greece/pexels-pixabay-164336.jpg" alt="athens">
+            <p>Greece</p>
+        </div></a>
+        <a href="/src/pages/travel/travel.html"><div class="element">
+            <img src="/src/assets/france/pexels-pixabay-532826.jpg" alt="eiffel">
+            <p>France</p>
+        </div></a>
+        <a href="/src/pages/travel/travel.html"><div class="element">
+            <img src="/src/assets/russia/pexels-elina-fairytale-3810856.jpg" alt="mosscow">
+            <p>Russia</p>
+        </div></a>
+        <a href="/src/pages/travel/travel.html"><div class="element">
+            <img src="/src/assets/egypt/pexels-mostafa-el-shershaby-3772630.jpg" alt="pyramides">
+            <p>Egypt</p>
+        </div></a>
+        <a href="/src/pages/travel/travel.html"><div class="element">
+            <img src="/src/assets/china/pexels-manuel-joseph-19872.jpg" alt="great wall of china">
+            <p>China</p>
+        </div></a>
+        <a href="/src/pages/travel/travel.html"><div class="element">
+            <img src="/src/assets/usa/pexels-pixabay-356844.jpg" alt="usa">
+            <p>USA</p>
+        </div></a>
+        <a href="/src/pages/travel/travel.html"><div class="element-button-container">
+            <button type="button" onclick="goToTravel()">More</button>
+        </div></a>
+    </div>
+    <!-- ------------------------------------------------------------------------------ -->
+    <h2>Special offers: best destinations now 50% off</h2>
+    <h6>Offer ends in 2 months</h6>
+    <div class="special-offers-container">
+        <a href="/src/pages/travel/travel.html"><div class="special-offers">
+            <img src="/src/assets/miami/pexels-luis-erives-11457815.jpg" alt="ocean drive">
+            <p><a href="/src/pages/travel/travel.html">Miami</a></p>
+        </div></a>
+        <a href="/src/pages/travel/travel.html"><div class="special-offers">
+            <img src="/src/assets/hawaii/pexels-jess-loiterton-4319881.jpg" alt="hawaii">
+            <p><a href="/src/pages/travel/travel.html">Hawaii</a></p>
+        </div></a>
+        <a href="/src/pages/travel/travel.html"><div class="special-offers">
+            <img src="/src/assets/canada/pexels-james-wheeler-1552212.jpg" alt="ice">
+            <p><a href="/src/pages/travel/travel.html">Canada</a></p>
+        </div></a>
+        <a href="/src/pages/travel/travel.html"><div class="special-offers-button-container">
+            <button type="button" onclick="goToTravel()">More</button>
+        </div></a>
+    </div>
+    <!-- ------------------------------------------------------------------------------ -->
+    <h2>Cruise vacations</h2>
+    <div class="cruise-container">
+        <a href="/src/pages/travel/travel.html"><div class="cruise-element">
+            <img src="/src/assets/cruise/pexels-matthew-barra-813011.jpg" alt="Hawaii Cruises">
+            <p><a href="/src/pages/travel/travel.html">Caribbean Cruises</a></p>
+        </div></a>
+        <a href="/src/pages/travel/travel.html"><div class="cruise-element">
+            <img src="/src/assets/cruise/pexels-dana-tentis-371680.jpg" alt="Hawaii Cruises">
+            <p><a href="/src/pages/travel/travel.html">Hawaii Cruises</a></p>
+        </div></a>
+        <a href="/src/pages/travel/travel.html"><div class="cruise-element">
+            <img src="/src/assets/cruise/pexels-samson-bush-2678418.jpg" alt="Hawaii Cruises">
+            <p><a href="/src/pages/travel/travel.html">Miami Cruises</a></p>
+        </div></a>
+        <a href="/src/pages/travel/travel.html"><div class="cruise-element-button-container">
+            <button type="button" onclick="goToTravel()">More</button>
+        </div></a>
+    </div>
+        <!-- TODO: check main % and footer in the end -->
+    </main>
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+    <footer>
+        <div class="tail">
+            <a href="/src/pages/homePage/index.html"><img src="/src/assets/logo/6JEkmq-LogoMakr.png" alt="ThruSun Inc."></a>
+            <br>
+            <div class="tail-child">
+            <p>Company:</p>
+            <a href="/src/pages/about/about.html">About us</a>
+            <br>
+            <a href="">Jobs</a>
+        </div>
+        <div class="tail-child">
+            <p>Recommendations:</p>
+            <a href="/src/pages/about/about.html#FAQ">Before visiting</a>
+            <br>
+            <a href="">Safety</a>
+        </div>
+        <div class="tail-child">
+            <p>Social media:</p>
+            <a href=""><i class="fa-brands fa-facebook" style="color: #ffffff;"></i> Facebook</a>
+            <br>
+            <a href=""><i class="fa-brands fa-twitter" style="color: #ffffff;"></i> Twitter</a>
+        </div>
+        <div class="copyrights">
+            <p>Copyright © 2023 ThruSun Inc.™. All rights reserved.</p>
+        </div>
+        </div>
+    </footer>
+
+    <script src="/src/pages/homePage/script.js"></script>
+
+</body>
+</html>

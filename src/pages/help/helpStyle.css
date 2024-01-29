@@ -1,0 +1,63 @@
+.title{
+    background: url(/src/assets/other/pexels-spencer-davis-4353813.jpg);
+    margin-top: 14px;
+    border-radius: 10px;
+    padding-bottom: 48px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title h1{
+    color: rgb(249, 63, 156);
+    padding-top: 44px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.txtarea{
+    height: 42%;
+    width: 32%;
+    padding: 12px 16px;
+    background: rgb(92, 7, 53);
+    margin-inline: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-block: 2%;
+}
+.txtarea textarea{
+    width: 98%;
+    border-radius: 14px;
+    padding: 4px;
+    margin: 2px;
+}
+.txtarea button{
+    margin-top: 12px;
+    background: hotpink;
+    color: white;
+    margin-inline: 20%;
+    border-radius: 35px;
+    padding: 10px;
+    width: 60%;
+    border: 0;
+}
+.txtarea button:hover{
+    background: rgb(252, 64, 158);
+}
+.txtarea h1{
+    color: rgb(216, 209, 209);
+    text-align: center;
+}
+.txtarea h3{
+    margin: 6px;
+    color: rgb(207, 198, 198);
+}
+a{
+    color: hotpink;
+}
+h4{
+    margin-left: 64px;
+    margin-top: 10px;
+}
+main{
+    height: 96%;
+}

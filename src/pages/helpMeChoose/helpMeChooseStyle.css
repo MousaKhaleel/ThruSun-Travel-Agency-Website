@@ -1,0 +1,72 @@
+.title{
+    background: url(/src/assets/other/pexels-pixabay-38238.jpg);
+    margin-top: 14px;
+    border-radius: 10px;
+    padding-bottom: 48px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title h1{
+    color: rgb(249, 63, 156);
+    padding-top: 44px;
+    text-align: center;
+}
+.table{
+    height: fit-content;
+    width: fit-content;
+    margin-top: 24px;
+    margin-left: 280px;
+}
+.table h3{
+    text-align: center;
+    color: hotpink;
+    background: url(/src/assets/miami/pexels-jorge-rangel-12803395.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.table th,tr,td{
+    border-collapse: separate;
+    border-spacing: 0;
+    padding-inline: 28px;
+    padding-block: 4px;
+    border-radius: 10px;
+    border: solid rgb(92, 7, 53);
+    text-align: center;
+    color: white;
+    background: rgba(198, 68, 152, 0.4);
+}
+.table table{
+    border-collapse: separate;
+    border-spacing: 0;
+    padding-inline: 28px;
+    padding-block: 4px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.table th{
+    color: rgb(197, 197, 197);
+}
+.tabletable th,tr,td:hover{
+    background: hotpink;
+}
+.table a{
+    color: black;
+}
+.table a:hover{
+    color: gray;
+}
+.map{
+    margin-top: 4px;
+    margin-left: 120px;
+    width: fit-content;
+    height: fit-content;
+}
+.map img{
+    border-radius: 10px;
+    width: 240px;
+}
+main{
+    height: 86%;
+}

@@ -1,0 +1,77 @@
+.title{
+    background: url(/src/assets/other/pexels-pixabay-416676.jpg);
+    margin-top: 14px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    margin-block: 18px;
+}
+main{
+    height: 180%;
+}
+.title h1{
+    color: rgb(249, 63, 156);
+    padding-top: 44px;
+    text-align: center;
+}
+.title h2{
+    color: rgb(249, 63, 156);
+    padding-bottom: 44px;
+    text-align: center;
+}
+.bookmarks{
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    padding: 8px;
+    background: rgb(215, 215, 215);
+}
+.bookmarks ul{
+    list-style-type: none;
+}
+.bookmarks li{
+    margin-left: 22px;
+}
+.bookmarks a{
+    text-decoration: none;
+    color: hotpink;
+}
+pre{
+    text-wrap: wrap;
+    margin-block: 12px;
+}
+.team{
+    display: grid;
+    grid-auto-flow: column;
+    background-color: rgba(72, 35, 95, 0.8);
+    border: solid 1px rgba(172, 170, 170,0.2);
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+}
+.team-member{
+    background: rgba(198, 68, 152, 0.4);
+    border: solid 1px rgba(172, 170, 170,0.2);
+    width: fit-content;
+    height: fit-content;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 10px;
+}
+.team p{
+    text-align: center;
+    margin-block: 4px;
+    color: white;
+}
+.team img{
+    width: 250px;
+}
+.why-us li{
+    margin-left: 28px;
+    margin-block: 4px;
+}
+.inside-ul li{
+    margin-left: 28px;
+}
