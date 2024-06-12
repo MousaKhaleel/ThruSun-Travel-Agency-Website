@@ -1,5 +1,5 @@
 .title{
-    background: url(/src/assets/other/pexels-asad-photo-maldives-1266831.jpg);
+    background: url(/assets/airplane/pexels-madison-inouye-1831265.jpg);
     margin-top: 14px;
     border-radius: 10px;
     padding-bottom: 48px;
@@ -11,8 +11,8 @@
     padding-top: 44px;
     text-align: center;
 }
-.signin{
-    height: 38%;
+.signup{
+    height: 58%;
     width: 30%;
     padding: 12px 16px;
     background: rgb(92, 7, 53);
@@ -21,7 +21,7 @@
     border-radius: 10px;
     padding-block: 2%;
 }
-.signin button{
+.signup button{
     margin-top: 12px;
     background: hotpink;
     color: white;
@@ -31,34 +31,48 @@
     width: 60%;
     border: 0;
 }
-.signin button:hover{
+.signup button:hover{
     background: rgb(252, 64, 158);
 }
-.signin input{
-        width: 98%;
-        border-radius: 14px;
-        padding: 4px;
-        margin: 2px;
-    }
-.signin p{   
+.signup input{
+    width: 98%;
+    border-radius: 14px;
+    padding: 4px;
+    margin: 2px;
+}
+.signup p{   
     margin: 8px;
     margin-left: 24px;
     font-size: x-small;
     color: grey;
 }
-.signin h4{
+.signup h4{
     margin: 6px;
     color: rgb(207, 198, 198);
 }
-.signin h2{
+.signup h2{
     text-align: center;
     margin: 0px 6px 6px 6px;
     color: rgb(216, 209, 209);
 }
-.signin a{
+.signup a{
     text-decoration: none;
     color: white;
 }
 main{
-    height: 80%;
+    height: 98%;
+}
+.accept input{
+    display: inline;
+    width: 14%;
+    border-radius: 14px;
+    padding: 4px;
+    margin: 2px;
+    margin-top: 4px;
+    accent-color: hotpink;
+}
+.signup label{
+    display: inline;
+    font-size: x-small;
+    color: white;
 }

@@ -1,5 +1,5 @@
 .title{
-    background: url(/src/assets/other/pexels-pixabay-38238.jpg);
+    background: url(/assets/other/pexels-pixabay-38238.jpg);
     margin-top: 14px;
     border-radius: 10px;
     padding-bottom: 48px;
@@ -20,7 +20,7 @@
 .table h3{
     text-align: center;
     color: hotpink;
-    background: url(/src/assets/miami/pexels-jorge-rangel-12803395.jpg);
+    background: url(/assets/miami/pexels-jorge-rangel-12803395.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;

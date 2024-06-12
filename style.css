@@ -90,7 +90,7 @@ a{
 }
 /* ------------------------------------------------------------------------------ */
 .hero-img{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/assets/other/pexels-asad-photo-maldives-1266831.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/other/pexels-asad-photo-maldives-1266831.jpg);
     height: 406px;
     background-position: center;
     background-repeat: no-repeat;
